@@ -34,11 +34,6 @@ struct ContentView: View {
                 }
                 .onDelete(perform: deleteToDos(_:))
             }
-//            .background {
-//                if toDos.isEmpty {
-//                    ContentUnavailableView("Nothing to do here", systemImage: "checkmark.circle.fill")
-//                }
-//            }
             .navigationTitle("ToDo App")
             .toolbar {
                 Button {
